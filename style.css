@@ -153,7 +153,7 @@ header div ul li:hover {
 #img-pp {
     width: 350px;
 }
-@media (max-width:1300px) {
+@media (max-width:1200px) {
     .cursos {
         flex-direction: column;
     }
@@ -165,7 +165,7 @@ header div ul li:hover {
         grid-template-rows: 0.1fr 0.6fr 1fr 1fr 1fr 1fr 0.1fr;
     }
 }
-@media (max-width:800px) {
+@media (max-width:768px) {
     h1 {
         font-size: 35px;
     }
@@ -225,16 +225,8 @@ header div ul li:hover {
     .logo {
         width: 60px;
     }
-    li {
-        padding: 10%;
-    }
     footer {
         flex-direction: column;
         padding-top: 30px;
-    }
-}
-@media (max-width:380px) {
-    li {
-        padding: 7%;
     }
 }
